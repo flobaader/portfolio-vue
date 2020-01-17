@@ -84,11 +84,6 @@
             'contact'
         ];
 
-        scrollOptions = {
-            duration: 700,
-            easing: 'easeInOutQuint',
-        }
-
         navClick() {
             if (!this.$vuetify.breakpoint.lgAndUp) {
                 this.drawer = false

@@ -6,9 +6,15 @@
                 <v-expansion-panel-header>
                     <v-list-item two-line>
                         <v-list-item-content>
-                            <v-list-item-title class="headline">CEO & Lead Developer</v-list-item-title>
-                            <v-list-item-subtitle><a href="https://www.selectcode.de">
-                                SelectCode UG</a></v-list-item-subtitle>
+                            <v-list-item-title class="headline">
+                                CEO & Lead Developer
+                                <v-chip color="primary">
+                                    July 2017 - Present
+                                </v-chip>
+                            </v-list-item-title>
+                            <v-list-item-subtitle>
+                                SelectCode UG
+                            </v-list-item-subtitle>
                         </v-list-item-content>
                     </v-list-item>
                 </v-expansion-panel-header>
@@ -38,7 +44,11 @@
                 <v-expansion-panel-header>
                     <v-list-item two-line>
                         <v-list-item-content>
-                            <v-list-item-title class="headline">Working Student</v-list-item-title>
+                            <v-list-item-title class="headline">Working Student
+                                <v-chip color="primary--darken-1">
+                                    August 2018 - September 2019
+                                </v-chip>
+                            </v-list-item-title>
                             <v-list-item-subtitle>QAware GmbH</v-list-item-subtitle>
                         </v-list-item-content>
                     </v-list-item>
@@ -64,7 +74,11 @@
                 <v-expansion-panel-header>
                     <v-list-item two-line>
                         <v-list-item-content>
-                            <v-list-item-title class="headline">Team Leader and Lead Developer</v-list-item-title>
+                            <v-list-item-title class="headline">Team Leader and Lead Developer
+                                <v-chip color="primary--darken-1">
+                                    November 2015 - June 2017
+                                </v-chip>
+                            </v-list-item-title>
                             <v-list-item-subtitle>Project group Stand-Bye!</v-list-item-subtitle>
                         </v-list-item-content>
                     </v-list-item>
@@ -87,7 +101,11 @@
                 <v-expansion-panel-header>
                     <v-list-item two-line>
                         <v-list-item-content>
-                            <v-list-item-title class="headline">Working Student</v-list-item-title>
+                            <v-list-item-title class="headline">Working Student
+                                <v-chip color="primary--darken-1">
+                                    August 2015 - August 2015
+                                </v-chip>
+                            </v-list-item-title>
                             <v-list-item-subtitle>Infineon</v-list-item-subtitle>
                         </v-list-item-content>
                     </v-list-item>
