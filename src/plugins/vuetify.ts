@@ -14,8 +14,8 @@ export default new Vuetify({
                 error: '#b71c1c',
             },
         },
-        icons: {
-            iconfont: 'fa', // 'mdi' || 'mdiSvg' || 'md' || 'fa' || 'fa4'
-        },
+    },
+    icons: {
+        iconfont: 'mdi', // 'mdi' || 'mdiSvg' || 'md' || 'fa' || 'fa4'
     },
 });
