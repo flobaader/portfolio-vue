@@ -1,6 +1,7 @@
 <template>
     <v-app>
         <Navigation/>
+        <Toolbar/>
         <v-content>
             <v-container fluid>
                 <Header/>
@@ -17,15 +18,17 @@
 <script lang="ts">
     import {Component, Vue} from 'vue-property-decorator';
     import Navigation from "@/components/Navigation.vue";
-    import Header from "@/components/About.vue";
-    import Experience from "@/components/Experience.vue";
-    import Education from "@/components/Education.vue";
-    import Skills from "@/components/Skills.vue";
-    import Awards from "@/components/Awards.vue";
-    import Contact from "@/components/Contact.vue";
+    import Header from "@/components/parts/About.vue";
+    import Experience from "@/components/parts/Experience.vue";
+    import Education from "@/components/parts/Education.vue";
+    import Skills from "@/components/parts/Skills.vue";
+    import Awards from "@/components/parts/Awards.vue";
+    import Contact from "@/components/parts/Contact.vue";
+    import Toolbar from "@/components/Toolbar.vue";
 
     @Component({
         components: {
+            Toolbar,
             Contact,
             Awards,
             Skills,
