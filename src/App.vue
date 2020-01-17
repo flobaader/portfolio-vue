@@ -17,7 +17,7 @@
 <script lang="ts">
     import {Component, Vue} from 'vue-property-decorator';
     import Navigation from "@/components/Navigation.vue";
-    import Header from "@/components/Header.vue";
+    import Header from "@/components/About.vue";
     import Experience from "@/components/Experience.vue";
     import Education from "@/components/Education.vue";
     import Skills from "@/components/Skills.vue";

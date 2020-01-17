@@ -1,5 +1,5 @@
 <template>
-    <v-container>
+    <v-container id="awards">
         <h2 class="display-2 text-center ma-3">Awards &amp; Certifications</h2>
         <v-card>
             <v-card-title>Competitions</v-card-title>
